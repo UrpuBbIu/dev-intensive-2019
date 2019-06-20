@@ -7,6 +7,10 @@ build/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
+*.apk
+*.ap_
+*.aab
+
 # Gradle files
 .gradle/
 
@@ -36,5 +40,22 @@ captures/
 # Google Services (e.g. APIs or Firebase)
 google-services.json
 
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Version control
 vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
+
